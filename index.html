@@ -1,264 +1,275 @@
 <!DOCTYPE html>
-<html>
-    <head> 
+<html lang="ru">
+    <head>
         <meta charset="UTF-8">
-        <title>Project Tesla</title>
+        <title>Tesla project</title>
+        <meta name="viewport" content="initial-scale=1.0, width-device-width">
     </head>
     <body>
-        <div class="wrapper">
-            <header class="header">
-                <div class="container">
-                    <div class="haeder__body">
-                        <a href="#" class="header__logo">
-                            <img src="img/Tesla-Wordmark-Red.png" alt="logo">
-                        </a>
-                        <div class="header__burger">
-                            <span></span>
-                        </div>
-                        <nav class="header__menu">
-                            <ul class="header__list">
-                                <li>
-                                    <a href="#" class="header__link">Model S</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="header__link">Model X</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="header__link">Model 3</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="header__link">Roadster</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="header__link">Energy</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <nav class="right__menu">
-                            <ul class="header__listright">
-                                <li>
-                                    <a href="#" class="header__link">Магазин</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="header__link">Войти</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </header>
-        </div>
+        <header class="header">
+            <img class="img__wordmark" src="img/Tesla-Wordmark-Red.png">
+            <nav class="header__nvg">
+                <a class="header__link header__link_ms" href="#">Model S</a>
+                <a class="header__link header__link_mx" href="#">Model X</a>
+                <a class="header__link header__link_mthree" href="#">Model 3</a>
+                <a class="header__link header__link_mr" href="#">Roadster</a>
+                <a class="header__link header__link_me" href="#">Energy</a>
+            </nav>
+            <div class="header__right">
+                <a class="header__link header__link_mag" href="#">Магазин</a>
+                <a class="header__link header__link_in" href="#">Войти</a>
+            </div>
+        </header>
         <main class="main">
-            <div class="main__wrapper">
-                <h1 class="main___title">Model S</h1>
-                <p class="main__lozung">Добро пожаловать в будущее!</p>
-                <img class="main__car" src="img/Tesla logo + car.png">
-            </div>
-            <footer class="main__footer">
-                <div class="footer__one">
-                    <div class="main__pictfirst">
-                        <img class="pict__speed" src="img/Speed.png">
-                    </div>
-                    <div class="main__wrapfirst">
-                        <p class="main__desct_big">
-                            <span class="big">2,7</span>
-                            <span class="big__time">сек</span>
-                        </p>
-                        <p class="main__desct_small">0-100 км/час</p>
-                    </div>
-                </div>
-                <div class="footer__two">
-                    <div class="main__pictsecond">
-                        <img class="pict__road" src="img/Road .png">
-                    </div>
-                    <div class="main__wrapsecond">
-                        <p class="main__desct_big">
-                            <span class="big">632</span>
-                            <span class="big__unit">км</span>
-                        </p>
-                        <p class="main__desct_small">запас хода</p>
-                    </div>
-                </div>
-                <div class="footer__three">
-                    <div class="main__pictthird">
-                        <img class="pict__wheel" src="img/steering-wheel.png">
-                    </div>
-                    <div class="main__wrapthird">
-                        <a class="main__link" href="#">ТЕСТ ДРАЙВ</a>
-                    </div>
-                </div>
-                <div class="main__wrapfourth">
-                    <a class="main___order" href="#">ЗАКАЗАТЬ</a>
-                </div>
-            </footer>
-            <div class="triangle">
-                <img class="main__triangle" src="img/Vector.png">
-            </div>
-        </main>
-        <section class="sectionfirst">
-            <div class="sectionfirst__left">
-                <h2 class="sectionfirst__title">Model S<h2>
-            </div>
-            <div class="sectionfirst__teslacockpit">
-                <img class="pictteslacockpit" src="img/2013-tesla-model-s-cockpit.png">
-            </div>
-            <div class="sectionfirst__right">
+            <section class="sectionfirst">
                 <div class="sectionfirst__wrapper">
-                    <h3 class="sectionfirst__subtitle">Будущее вождения</h3>
-                    <p class="sectionfirst__description">
-                        "Модель S обладает лучшей в своем классе вместительностью: в машине поместится
-                        до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным
-                        экраном. Усовершенсвтованная шумовая инженерия создает динамику звука, сравнимую
-                        со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для
-                        каждого пассажира."
-                    </p>
+                    <h2 class="sectionfirst__title">Model S</h2>
+                    <p class="sectionfirst__slog">Добро пожаловать в будущее!</p>
+                    <img class="sectionfirst__car" src="img/Tesla logo + car.png">
                 </div>
-                <div class="sectionfirst__middles">
-                    <div class="sectionfirst__middle">
-                        <div class="sectionfirst__pict">
-                            <img class="pictscreen" src="img/screen.png">
+                <footer class="sectiofirst__footer">
+                    <div class="footer__first">
+                        <div class="sectionfirst__iconfirst">
+                            <img class="icon__speed" src="img/Speed.png">
                         </div>
-                        <div class="sectionfirst__wrap">
-                            <p class="sectionfirst__desct">
-                                <span class="sectionfirst__big">17</span> "дюймов"
+                        <div class="sectiofirst__wrapfirst">
+                            <p class="sectionfirst__descr_big">
+                                <span class="big">2,7</span>
+                                <span class="big__add">сек</span>
                             </p>
-                            <p class="sectionfirst__desctsmall">Большой дисплей</p>
-                        </div>
-                        <div class="sectionfirst__pict">
-                            <img class="pictwifi" src="img/wifi.png">
-                        </div>
-                        <div class="sectionfirst__wrap">
-                            <p class="sectionfirst__desct">Беспроводное обновление ПО</p>
-                            <p class="sectionfirst__desct__small">Повышенная функициональность</p>
+                            <p class="sectionfirst__descr_small">0-100 км/час</p>
                         </div>
                     </div>
-                    <div class="sectionfirst__middle">
-                        <div class="sectionfirst__pict">
-                            <img class="pictbag" src="img/bag.png">
+                    <div class="footer__second">
+                        <div class="sectionfirst__iconsecond">
+                            <img class="icon__road" src="img/Road .png">
                         </div>
-                        <div class="sectionfirst__wrap">
-                            <p class="sectionfirst__desct">
-                                <span class="sectionfirst__big">894</span> "литра"
+                        <div class="sectionfirst__wrapsecond">
+                            <p class=" sectionfirst__descr_big">
+                                <span class="big">632</span>
+                                <span class="big__add">км</span>
                             </p>
-                            <p class="sectionfirst__desctsmall">Объем грузового пространства</p>
+                            <p class="sectionfirst__descr_small"> запас хода</p>
                         </div>
                     </div>
+                    <div class="footer__third">
+                        <div class="sectionfirst__iconthird">
+                            <img class="icon__weel" src="img/steering-wheel.png">
+                        </div>
+                        <div class="sectionfirst__wrapthird">
+                            <a class="sectionfirst__link" href="#">ТЕСТ ДРАЙВ</a>
+                        </div>
+                    </div>
+                    <div class="sectionfirst__wrapfourth">
+                        <a class="sectionfirt__order">ЗАКАЗАТЬ</a>
+                    </div>
+                </footer>
+                <div class="last">
+                    <img class="sectionfirst__last" src="img/Vector.png">
                 </div>
-            </div>
-            <footer class="sectionfirst__footer">
-                <div class="sectionfirst__group">
-                    <img class="sectionfirst__footer_pict" src="img/Group.png">
+            </section>
+            <section class="sectionsecond">
+                <div class="sectionsecond__left">
+                    <h3 class="sectionsecond__title">Model S</h3>
                 </div>
-                <div class="sectionfirst__footer_link">
-                    <a class="sectionfirst__link" href="#">УЗНАТЬ БОЛЬШЕ</a>
-                </div>
-                <a class="sectionfirst__order" href="#">ЗАКАЗАТЬ</a>
-            </footer>
-        </section>
-        <section class="sectionsecond">
-            <div class="sidebar">
-                <div class="sidebar__wrapone">
-                    <h6 class="sidebar__title">Смамый безопасный автомобиль в мире</h6>
-                    <p class="sidebar__description">
-                        "Модель S достигла наивысшей оценки безопасности любого автомобиля,
-                        когда-либо испытанного, и установила рекорд по наименьшей вероятности
-                        травмы пассажиров от несчастных случаев на переднем, боковом, заднем
-                        сидении и в ДТП с переворотом авто."
-                    </p>
-                </div>
-                <div class="sidebar__middle">
-                    <h7 class="sidebar__subtitle">Оценка защиты:</h7>
-                    <div class="sidebar__wraptwo">
-                        <div class="sidebar__box">
-                            <p class="sidebar__item">СПЕРЕДИ</p>
-                            <div class="sidebar__star">
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
+                <div class="sectionsecond__right">
+                    <div class="sectionsecond__wrapper">
+                        <h4 class="sectionsecond__subtitle">Будущее вождения</h4>
+                        <p class="sectionsecond__description">
+                            "Модель S обладает лучшей в своем классе вместительностью: в машине поместится до 
+                            пяти взрослых и двух детей. Оснащена современным 17 дюймовым экраном.
+                            Усовершенстованная шумовая инженерия создает динамику звука, сравнимую со студией
+                            звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого
+                            пассажира."
+                        </p>
+                    </div>
+                    <div class="sectionsecond__indcators">
+                        <div class="sectionsecond__indicator">
+                            <div class="sectionsecond__icon">
+                                <img class="iconscreen" src="img/screen.png">
+                            </div>
+                            <div class="sectionsecond__wrap">
+                                <p class="sectionsecond__desc">
+                                    <span class="sectionsecond__big">17</span> "дюймов"
+                                </p>
+                                <p class="sectionsecond__descsmall">Большой дисплей</p>
                             </div>
                         </div>
-                        <div class="sidebar__box">
-                            <p class="sidebar__item">СБОКУ</p>
-                            <div class="sidebar__star">
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
+                        <div class="sectionsecond__indicator">
+                            <div class="sectionsecond__icon">
+                                <img class="iconwifi" src="img/wifi.png">
+                            </div>
+                            <div class="sectionsecond__Wrap">
+                                <p class="sectionsecond__desc">Бкспроводное обновление ПО</p>
+                                <p class="sectionsecond__descsm">Повышенная функциональность</p>
                             </div>
                         </div>
-                        <div class="sidebar__box">
-                            <p class="sidebar__item">
-                                "СБОКУ"
-                                <span class="sidebar__item_small">(стойка)</span>
-                            </p>
-                            <div class="sidebar__star">
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
-                                <span class="star">
-                                    <img src="img/Star.png">
-                                </span>
+                        <div class="sectionsecond__indicator">
+                            <div class="sectionsecond__icon">
+                                <img class="iconbag" src="img/bag.png">
+                            </div>
+                            <div class="sectionsecond__wrap">
+                                <p class="sectionsecond__desc">
+                                    <span class="sectionsecond__big">894</span> "литра"
+                                </p>
+                                <p class="sectionsecond__descsm">Объум грузового пространства</p>
                             </div>
                         </div>
-                        <div class="sibar__finding">
-                            <div class="sidebar__pict">
-                                <img class="pict__security" src="img/security.png">
-                            </div>
-                            <div class="sidebar__wrapper">
-                                <p class="sidebar__finding_title">5 звезд</p>
-                                <p class="sidebar__desct">безопасности</p>
-                            </div>
+                    </div>
+                    <footer class="sectionsecond__footer">
+                        <div class="sectionsecond__group">
+                            <img class="sectionsecond__footer_icon" src="img/Group.png">
                         </div>
-                        <footer class="sidebar__footer">
-                            <div class="sidebar__footer_wrap">
-                                <div class="sibar__ellipse">
-                                    <img class="sidebar__footer_pict" src="img/Ellipse.png">
-                                </div>
-                                <div class="sidebar__footer_link">
-                                    <a class="sidebar__link" href="#">УЗНАТЬ БОЛЬШЕ</a>
+                        <div class="sectionsecond__footer_link">
+                            <a class="sectionsecond__link" href="#">УЗНАТЬ БОЛЬШЕ</a>
+                            <a class="sectionsecond__order" href="#">ЗАКАЗАТЬ</a>
+                        </div>
+                    </footer>
+                </div>
+            </section>
+            <section class="sectionthird">
+                <div class="sidebar">
+                    <div class="sidebar__wrapfirst">
+                        <h6 class="sidebar__title">Самый безопасный автомобиль в мире</h6>
+                        <p class="sidebar__description">
+                            "Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо
+                            испытанного, и установила рекорд по наименьшей вероятности травм пассажиров от 
+                            несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом
+                            авто."
+                        </p>
+                    </div>
+                    <div class="sidebar__indicator">
+                        <h7 class="sidebar__title">Оценка защиты:</h7>
+                        <div class="sidebar__wrapsecond">
+                            <div class="sidebar__box">
+                                <p class="sidebar__item">СПЕРЕДИ</p>
+                                <div class="sidebar__star">
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
                                 </div>
                             </div>
-                            <a class="sidebar__order" href="#">ЗАКАЗАТЬ</a>
-                        </footer>
+                            <div class="sidebar__box">
+                                <p class="sidebar__item">СБОКУ</p>
+                                <div class="sidebar__star">
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="sidebar__box">
+                                <p class="sidebar__item">СБОКУ
+                                    <span class="sidebar__item_sm">(стойка)</span>
+                                </p>
+                                <div class="sidebar__star">
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="sidebar__box">
+                                <p class="sidebar__item">ВОДИТЕЛЬ</p>
+                                <div class="sidebar__star">
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="sidebar__box">
+                                <p class="sidebar__item">ПАССАЖИР</p>
+                                <div class="sidebar__star">
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                    <span class="star">
+                                        <img src="img/Star.png">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar__nesting">
+                        <div class="sidebar__icon">
+                            <img class="icon__security" src="img/security.png">
+                        </div>
+                        <div class="sidebar__wrapper">
+                            <p class="sidebar__nesting_title">5 звезд</p>
+                            <p class="sidebar__nesting_desc">безопасности</p>
+                        </div>
                     </div>
+                        </div>
+                    <footer class="sidebar__footer">
+                        <div class="sidebar__footer_wrap">
+                            <div class="sidebar__group">
+                                <img class="sidebar__footer_icon" src="img/Group.png">
+                            </div>
+                            <div class="sidebar__footer_link">
+                                <a class="sidebar__link" href="#">УЗНАТЬ БОЛЬШЕ</a>
+                                <a class="sidebar__order">ЗАКАЗАТЬ</a>
+                            </div>
+                        </div>
+                    </footer>
                 </div>
-            </div>
-            <div class="sectionsecond__right">
-                <img class="sectionsecond__models" src="img/Model S (1).png">
-                <img class="sectionsecond__car" src="img/Car frame group.png">
-            </div>
-        </section>
+                <div class="sectionthird__right">
+                    <img class="sectionthird__right_car" src="img/Car frame group.png">
+                </div>
+            </section>
+        </main>
     </body>
 </html>
